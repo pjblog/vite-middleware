@@ -48,5 +48,6 @@ export default class ViteDevServerPlugin extends Plugin {
     })
     const viteMiddlewares = c2k(this.vite.middlewares);
     middlewares.add('suffix', viteMiddlewares);
+    return () => middlewares.del('suffix', viteMiddlewares);
   }
 }
