@@ -1,6 +1,6 @@
 {
   "name": "@pjblog/vite-middleware",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "PJBlog 主题开发工程之 vite 中间件",
   "license": "MIT",
   "type": "module",
@@ -17,17 +17,17 @@
   },
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.4",
     "fix-esm-import-path": "^1.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@pjblog/blog": "^2.3.9",
+    "@pjblog/blog": "^2.3.34",
     "@zille/configurator": "^1.1.2",
     "@zille/http": "^1.1.12",
     "crypto-js": "^4.2.0",
     "koa-connect": "^2.1.0",
-    "vite": "^5.2.6"
+    "vite": "^5.2.8"
   }
 }
