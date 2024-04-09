@@ -1,6 +1,6 @@
 {
   "name": "@pjblog/vite-middleware",
-  "version": "2.3.7",
+  "version": "2.3.8",
   "description": "PJBlog 主题开发工程之 vite 中间件",
   "license": "MIT",
   "type": "module",
